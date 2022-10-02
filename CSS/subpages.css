@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Edu NSW ACT Foundation", "fantasy";
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Rajdhani", "fantasy";
+  color: white;
+  font-size: 80%;
+}
+
+ol {
+  margin: 0 20%;
+  text-align: left;
+}
+
+/* tablet/split screen */
+@media (max-width: 770px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  ol {
+    margin: 0 10%;
+  }
+}
+
+/* phone screen */
+@media (max-width: 370px){
+
+}
+
+.carousel-item{
+    min-height: 500px;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 100px;
+}
